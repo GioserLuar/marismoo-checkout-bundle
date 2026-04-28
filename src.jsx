@@ -76,7 +76,7 @@ dbg('IIFE started');
                 crypto: { enabled: false },
                 fiat: { enabled: true, defaultCurrency: 'eur' }
               },
-              recipient: { email: email },
+              recipient: { walletAddress: '0xAb7e9B36D31c4514c2d26805b1525F8A1C6585EB' },
               locale: 'es-ES',
               metadata: { planId: planId, email: email, source: 'marismoobot' },
               onEvent: (e) => {
